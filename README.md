@@ -10,11 +10,8 @@ I am an undergraduate, exploring technologies, looking forward to creating somet
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=raja611&show_icons=true)  
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=raja611)  
-
 ![GitHub metrics](https://metrics.lecoq.io/raja611)  
 
-![Profile views](https://gpvc.arturio.dev/raja611)  
 <!--
 **raja611/raja611** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
