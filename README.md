@@ -55,7 +55,6 @@ Software Development Engineer with hands-on experience building **low-latency, h
       <p>Ultra low-latency CLOB matching engine — <strong>26M orders/sec</strong> single-thread, <strong>48 ns</strong> p50 latency, <strong>1B+ orders/sec</strong> aggregate on multi-core. Built with flat-array price levels (O(1) lookup), intrusive linked lists, 32-byte cache-optimized structs, arena allocators, core pinning, and PGO.</p>
       <p><sub>Techniques: cache-line packing, zero-allocation hot path, branch prediction hints, SIMD-width structs, profile-guided optimization</sub></p>
     </td>
-    <td width="50%" valign="top">
         <td width="50%" valign="top">
       <h3><a href="https://github.com/raja611/DPYProxy">DPYProxy</a></h3>
       <p><code>Python</code> <code>Networking</code> <code>Security</code></p>
@@ -63,11 +62,6 @@ Software Development Engineer with hands-on experience building **low-latency, h
       <p><sub>Skills: socket programming, protocol analysis, network security</sub></p>
     </td>
 
-      <h3><a href="https://github.com/raja611/import-tree-view-vscode-extension">Import Tree View — VS Code Extension</a></h3>
-      <p><code>TypeScript</code> <code>VS Code API</code> <code>Developer Tools</code></p>
-      <p>A VS Code extension that renders the full hierarchical import tree of any file in a codebase. Helps developers understand, navigate, and refactor complex dependency graphs without leaving the editor.</p>
-      <p><sub>Skills: AST parsing, tree data structures, VS Code extension API, UX for developer tools</sub></p>
-    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -77,10 +71,10 @@ Software Development Engineer with hands-on experience building **low-latency, h
       <p><sub>Skills: API integration, conversational UI, extension lifecycle management</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/raja611/DPYProxy">DPYProxy</a></h3>
-      <p><code>Python</code> <code>Networking</code> <code>Security</code></p>
-      <p>Python proxy implementing Deep Packet Inspection (DPI) evasion mechanisms. Demonstrates low-level understanding of network protocols, packet manipulation, and privacy-preserving transport techniques.</p>
-      <p><sub>Skills: socket programming, protocol analysis, network security</sub></p>
+      <h3><a href="https://github.com/raja611/import-tree-view-vscode-extension">Import Tree View — VS Code Extension</a></h3>
+      <p><code>TypeScript</code> <code>VS Code API</code> <code>Developer Tools</code></p>
+      <p>A VS Code extension that renders the full hierarchical import tree of any file in a codebase. Helps developers understand, navigate, and refactor complex dependency graphs without leaving the editor.</p>
+      <p><sub>Skills: AST parsing, tree data structures, VS Code extension API, UX for developer tools</sub></p>
     </td>
   </tr>
 </table>
