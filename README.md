@@ -17,7 +17,7 @@ Software Development Engineer with hands-on experience building **low-latency, h
 
 ---
 
-### What I Bring to the Table
+### Interesting Things i worked on
 
 - **Systems & Performance Engineering** — Built an order matching engine processing **26M orders/sec** (~38 ns/order) with sub-microsecond p50 latency. Deep experience with cache optimization, lock-free design, memory arenas, and compiler-guided tuning (PGO, LTO).
 - **Developer Tooling** — Created VS Code extensions used by developers for AI-assisted coding and codebase dependency visualization.
@@ -56,6 +56,13 @@ Software Development Engineer with hands-on experience building **low-latency, h
       <p><sub>Techniques: cache-line packing, zero-allocation hot path, branch prediction hints, SIMD-width structs, profile-guided optimization</sub></p>
     </td>
     <td width="50%" valign="top">
+        <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja611/DPYProxy">DPYProxy</a></h3>
+      <p><code>Python</code> <code>Networking</code> <code>Security</code></p>
+      <p>Python proxy implementing Deep Packet Inspection (DPI) evasion mechanisms. Demonstrates low-level understanding of network protocols, packet manipulation, and privacy-preserving transport techniques.</p>
+      <p><sub>Skills: socket programming, protocol analysis, network security</sub></p>
+    </td>
+
       <h3><a href="https://github.com/raja611/import-tree-view-vscode-extension">Import Tree View — VS Code Extension</a></h3>
       <p><code>TypeScript</code> <code>VS Code API</code> <code>Developer Tools</code></p>
       <p>A VS Code extension that renders the full hierarchical import tree of any file in a codebase. Helps developers understand, navigate, and refactor complex dependency graphs without leaving the editor.</p>
@@ -76,18 +83,6 @@ Software Development Engineer with hands-on experience building **low-latency, h
       <p><sub>Skills: socket programming, protocol analysis, network security</sub></p>
     </td>
   </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/raja611/task-management-web-app">Task Management Web App</a></h3>
-      <p><code>HTML</code> <code>CSS</code> <code>JavaScript</code></p>
-      <p>A clean task management application built with vanilla web technologies. Features task CRUD operations, organization, and a responsive UI.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/raja611/CalHub">CalHub</a></h3>
-      <p><code>JavaScript</code> <code>HTML/CSS</code> <code>Open Source</code></p>
-      <p>Open-source calculator project — forked, enhanced, and contributed back to the community.</p>
-    </td>
-  </tr>
 </table>
 
 ---
@@ -96,16 +91,16 @@ Software Development Engineer with hands-on experience building **low-latency, h
 
 | | |
 |---|---|
-| **26M orders/sec** | Single-thread matching throughput on commodity hardware |
-| **48 ns p50** | Median order-to-trade latency — faster than an L3 cache miss |
-| **217x speedup** | Cancel throughput improvement through data structure redesign |
+| **26M orders/sec** | Single-thread matching throughput on commodity hardware — Order Matching Engine |
+| **48 ns p50** | Median order-to-trade latency, faster than an L3 cache miss — Order Matching Engine |
+| **217x speedup** | Cancel throughput improvement through data structure redesign — Order Matching Engine |
 | **2 VS Code extensions** | Published developer tools for AI coding and dependency visualization |
 | **NIT Puducherry** | B.Tech graduate |
 
 ---
 
 <p align="center">
-  <em>Open to opportunities in systems programming, low-latency infrastructure, trading systems, and performance engineering.</em>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=raja611&theme=default&hide_border=true" alt="GitHub Streak">
 </p>
 
 <p align="center">
