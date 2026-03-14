@@ -21,6 +21,7 @@ Software Development Engineer with hands-on experience building **low-latency, h
 
 - **Systems & Performance Engineering** — Built an order matching engine processing **26M orders/sec** (~38 ns/order) with sub-microsecond p50 latency. Deep experience with cache optimization, lock-free design, memory arenas, and compiler-guided tuning (PGO, LTO).
 - **Developer Tooling** — Created VS Code extensions used by developers for AI-assisted coding and codebase dependency visualization.
+- **AI & RAG Applications** — Built a PDF chatbot with OpenAI embeddings, LlamaIndex, and Flask — optimized to controllable overhead with in-memory caching and batch embeddings.
 - **Full-Stack Fundamentals** — Comfortable across the stack, from low-level C++ to web applications with HTML/CSS/JS.
 - **Open Source Contributor** — Active in open-source projects; shipped published VS Code extensions.
 
@@ -41,6 +42,10 @@ Software Development Engineer with hands-on experience building **low-latency, h
   <img src="https://img.shields.io/badge/Multithreading-333333?style=flat-square" alt="Multithreading">
   <img src="https://img.shields.io/badge/Cache_Optimization-333333?style=flat-square" alt="Cache Optimization">
   <img src="https://img.shields.io/badge/Memory_Management-333333?style=flat-square" alt="Memory Management">
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask">
+  <img src="https://img.shields.io/badge/LlamaIndex-6C3483?style=flat-square" alt="LlamaIndex">
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI">
+  <img src="https://img.shields.io/badge/RAG-333333?style=flat-square" alt="RAG">
 </p>
 
 ---
@@ -55,13 +60,14 @@ Software Development Engineer with hands-on experience building **low-latency, h
       <p>Ultra low-latency CLOB matching engine — <strong>26M orders/sec</strong> single-thread, <strong>48 ns</strong> p50 latency, <strong>1B+ orders/sec</strong> aggregate on multi-core. Built with flat-array price levels (O(1) lookup), intrusive linked lists, 32-byte cache-optimized structs, arena allocators, core pinning, and PGO.</p>
       <p><sub>Techniques: cache-line packing, zero-allocation hot path, branch prediction hints, SIMD-width structs, profile-guided optimization</sub></p>
     </td>
-        <td width="50%" valign="top">
-      <h3><a href="https://github.com/raja611/DPYProxy">DPYProxy</a></h3>
-      <p><code>Python</code> <code>Networking</code> <code>Security</code></p>
-      <p>Python proxy implementing Deep Packet Inspection (DPI) evasion mechanisms. Demonstrates low-level understanding of network protocols, packet manipulation, and privacy-preserving transport techniques.</p>
-      <p><sub>Skills: socket programming, protocol analysis, network security</sub></p>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja611/PDF-Chatbot">PDF Chatbot</a></h3>
+      <p><code>Python</code> <code>Flask</code> <code>RAG</code> <code>LlamaIndex</code></p>
+      <p>Flask-based chatbot that lets you upload PDF or DOCX files and ask questions about their content using OpenAI embeddings and LlamaIndex. Optimized with in-memory index caching (<strong>250x</strong> engine load speedup), batch embeddings (<strong>2x</strong> faster uploads), and sub-millisecond controllable overhead.</p>
+      <p><sub>Skills: RAG pipelines, vector search, embedding optimization, Flask, LlamaIndex, performance benchmarking</sub></p>
     </td>
-
+    <td width="50%" valign="top">
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -88,6 +94,7 @@ Software Development Engineer with hands-on experience building **low-latency, h
 | **26M orders/sec** | Single-thread matching throughput on commodity hardware — Order Matching Engine |
 | **48 ns p50** | Median order-to-trade latency, faster than an L3 cache miss — Order Matching Engine |
 | **217x speedup** | Cancel throughput improvement through data structure redesign — Order Matching Engine |
+| **250x faster** | Engine load optimization in PDF Chatbot — from 25ms to 0.1ms with in-memory caching |
 | **2 VS Code extensions** | Published developer tools for AI coding and dependency visualization |
 | **NIT Puducherry** | B.Tech graduate |
 
